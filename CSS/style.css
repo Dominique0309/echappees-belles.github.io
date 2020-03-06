@@ -1,0 +1,58 @@
+h1
+{
+ text-align: center;
+ padding-top: 30px;
+ background-color: chocolate;
+}
+#menu
+{ 
+ text-align: center;
+ background-color: chocolate;
+}
+#menu ul, #menu .active
+{
+ display: inline-flex;
+ list-style-type: none;
+ color: #fff; 
+}
+#menu ul li
+{
+ width:120px;
+ margin: 15px;
+ padding: 15px;
+}
+#menu ul li a
+{
+ text-decoration: none;
+ color: white;
+ font-family: sans-serif;
+ font-size: 17px;
+}
+.active, #menu ul li:hover
+{
+ background:black;
+ border-radius: 3px;
+}
+.text, .image
+{
+ width:320px; 
+}
+img
+{
+ padding-top: 20px;
+ width: 320px;
+ height: 338px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.text , .image, .video
+{
+ margin-left: auto;
+ margin-right: auto;
+}
+h2
+{ 
+ text-align: center;
+ padding-top: 30px;
+ background-color: yellow;
+}

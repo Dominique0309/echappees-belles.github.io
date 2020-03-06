@@ -1,0 +1,59 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body
+{
+ background-image: url(../Images/voyage2.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h1 
+{
+ text-align: center;
+ padding-top: 30px;
+ color: black;
+ background-color: brown;
+}
+#menu
+{ 
+ text-align: center;
+ background-color: brown;
+}
+#menu ul, #menu .active
+{
+ display: inline-flex;
+ list-style-type: none;
+ color: whitesmoke; 
+}
+#menu ul li
+{
+ width:120px;
+ margin: 15px;
+ padding: 15px;
+}
+#menu ul li a
+{
+ text-decoration: none;
+ color: white;
+ font-family: sans-serif;
+ background-color:brown;
+ font-size: 25px;
+}
+.active, #menu ul li:hover
+{
+ background:wheat;
+ border-radius: 3px;
+}
+.logo{
+     height: 75pt;
+     float: left;
+     margin: 7px 20px;
+     width: 64pt;
+margin-top: inherit;
+}
+header{
+    background-color: brown;
+}
